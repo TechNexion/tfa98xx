@@ -43,6 +43,9 @@ MAKEARCH := $(MAKE) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE)
 all:
 	$(MAKEARCH) -C $(KDIR) M=$(PWD) modules
 
+modules_install:
+	$(MAKEARCH) INSTALL_MOD_STRIP=1 -C $(KDIR) M=$(shell pwd) modules_install
+
 clean:
 	$(MAKEARCH) -C $(KDIR) M=$(PWD) clean
 	rm -f $(snd-soc-tfa98xx-objs)
