@@ -14,4 +14,8 @@ To make and make install module for TFA98xx driver:
 (NOTE: The "modules" directory should be already installed kernel module inside)
 
 
+Load the module driver on the board:
+
+> modprobe snd-soc-tfa98xx
+
 * Supported kernel: 4.9.x, 4.14.x
