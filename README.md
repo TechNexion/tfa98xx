@@ -9,7 +9,7 @@ To make and make install module for TFA98xx driver:
 
 > KDIR=\<your kernel source path> make
 
-> KDIR=\<your kernel source path> INSTALL_MOD_PATH=\<modules> make modules_install
+> KDIR=\<your kernel source path> INSTALL_MOD_PATH=\<absolute path of kernel module> make modules_install
 
 (NOTE: The "modules" directory should be already installed kernel module inside)
 
