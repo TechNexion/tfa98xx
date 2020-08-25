@@ -1,6 +1,6 @@
 # TFA9892 driver for TechNexion Voicehat
 
-* Supported kernel: 4.9.x, 4.14.x
+* Supported kernel: 4.9.x, 4.14.x, 5.4.x
 
 [TechNexion VOICEHAT](https://shop.technexion.com/voicehat.html)
 
